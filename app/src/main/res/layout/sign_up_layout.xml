@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF4F6"
+    android:orientation="vertical"
+    tools:context=".SignUpLayout">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/si" />
+
+    <EditText
+        android:id="@+id/edtSignupEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/emaill"
+        android:ems="10"
+        android:hint="Please enter an email address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtSignupUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/user"
+        android:ems="10"
+        android:hint="Please enter username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtSignupPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ilock"
+        android:ems="10"
+        android:hint="Please enter password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/edtSignupRePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ic_baseline_spellcheck_24"
+        android:ems="10"
+        android:hint="Please re enter password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F44983"
+        android:text="SIGN UP"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F44983"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

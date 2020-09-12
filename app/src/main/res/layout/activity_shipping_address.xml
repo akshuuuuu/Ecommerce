@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BA3260"
+    android:orientation="vertical"
+    tools:context=".ShippingAddress">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C89FAD"
+        android:gravity="center_horizontal"
+        android:text="Enter Address"
+        android:textColor="#A10D3F"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Enter house/flat no."
+        android:inputType="textPersonName"
+        android:textColor="#FAF6F6"
+        android:textColorHint="#FBFBFB"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter your street name"
+        android:inputType="textPersonName"
+        android:textColorHint="#FDF8F8"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter City"
+        android:inputType="textPersonName"
+        android:textColorHint="#FBF7F7"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Enter State"
+        android:inputType="textPersonName"
+        android:textColorHint="#F3ECEC"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter pincode"
+        android:inputType="textPersonName"
+        android:textColorHint="#F4F0F0"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#E194AE"
+        android:text="Confirm"
+        android:textColor="#9C1442"
+        android:textSize="25sp" />
+</LinearLayout>

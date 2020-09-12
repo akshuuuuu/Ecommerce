@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F39AB8"
+    android:orientation="vertical"
+    tools:context=".ThankYouActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#F39AB8"
+        app:srcCompat="@drawable/ty" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#E91E63"
+        android:drawableRight="@drawable/shopp"
+        android:text="Continue Shopping.."
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#E91E63"
+        android:drawableRight="@drawable/exit"
+        android:text="Exit"
+        android:textSize="25sp" />
+
+</LinearLayout>
